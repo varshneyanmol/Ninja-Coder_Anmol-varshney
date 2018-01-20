@@ -68,7 +68,7 @@ The sizes of the list_high and list_low are calculated as:
 	high_biased_numbers = ceil( 73% of N )
 	low_biased_numbers = N - high_biased_numbers
 	
-	where N = Total nuber of random numbers to be generated
+	where N = Total number of random numbers to be generated
 	for e.g. if N=100, high_biased_numbers = 73 and so low_biased_numbers = 100 - 73
 	if N=10, high_biased_numbers = 8 (not 7) and so low_biased_numbers = 10 - 8
 	
