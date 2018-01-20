@@ -6,7 +6,7 @@ This program generates 'N' random numbers in the range [min, max] which are guar
 It prompts user to enter a range (space seperated). Then it asks for how many random numbers(N) are to be generated in that range.
 It prints "two lists" on the console:
 
-	1.First list contains all the numbers which are high biased i.e. 73% of N which are greater than 'middle of [min, max]'.
+	1.First list contains all the numbers which are high biased i.e. 73% of N which are greater or equal to the 'middle of [min, max]'.
 	2.Second list contains all the numbers which are low biased i.e. 27% of N which are less than 'middle of [min, max]'.
 
 
