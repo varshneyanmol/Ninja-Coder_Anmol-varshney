@@ -1,4 +1,4 @@
-# Ninja-Coder_Anmol-varshney Python code to generate 73% biased random numbers in a range
+# Ninja-Coder_Anmol-varshney Explanation of Python program to generate 73% biased random numbers in a range
 
 This program generates 'N' random numbers in the range [min, max] which are guaranteed to be 73% biased to the higher number i.e. 'max'.
 
