@@ -48,11 +48,11 @@ Then we return this 'next' as a random number
 
 I have defined a python class with the name 'Random' which has a constructor and two methods: seed() and nextRandom().
 
-The seed method is called to set user defined seed value.
+The seed() method is called to set user defined seed value.
 
 The nextRandom() method does all the calculation explained in the above portion.
 
-The constructor intializes the vales of 'min', 'max', 'Multiplier', 'Modulus' and also default 'seed' value.
+The constructor intializes the values of 'min', 'max', 'Multiplier', 'Modulus' and also default 'seed' value.
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -60,10 +60,10 @@ The main() method which is outside the class 'Random' is where all the biasing h
 
 It creates an object 'rand' of type 'Random' with the default seed value.
 
-Inside the while loop it repeatedly fills both the lists (list_high and list_low) until they are full by calling the rand.nextRandom() function.
+Inside the while loop it repeatedly fills both the lists (list_high and list_low) until they are full by calling the rand.nextRandom() method.
 Once they are full it exits the while loop and prints both the lists on the console.
 
-The sizees of the list_high and list_low are calculated as:
+The sizes of the list_high and list_low are calculated as:
 	
 	high_biased_numbers = ceil( 73% of N )
 	low_biased_numbers = N - high_biased_numbers
